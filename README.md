@@ -1,4 +1,4 @@
-### Rocket Anomaly Detection Project
+# Rocket Anomaly Detection Project
 ## Rocket Flight Anomaly Detection using Kalman Filter
 
 This project simulates a two-stage rocket flight, generates synthetic sensor data, estimates flight states using a Kalman Filter, and detects anomalies in barometric readings based on residual analysis.

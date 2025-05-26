@@ -37,8 +37,9 @@ Visualizes residuals and detected anomalies
 ## 🧪 Dependencies
 
 Install with pip:
-    pip install numpy pandas matplotlib
-
+```bash
+pip install numpy pandas matplotlib
+```
 ## 📝 How to Run
 ```bash
 python src/main.py

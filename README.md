@@ -1,10 +1,10 @@
-# Rocket Anomaly Detection Project
-Rocket Flight Anomaly Detection using Kalman Filter
+### Rocket Anomaly Detection Project
+## Rocket Flight Anomaly Detection using Kalman Filter
 
 This project simulates a two-stage rocket flight, generates synthetic sensor data, estimates flight states using a Kalman Filter, and detects anomalies in barometric readings based on residual analysis.
 
-📁 Project Structure
-
+## 📁 Project Structure
+```bash
 rocket-anomaly-detection/
 ├── README.md
 ├── report.pdf
@@ -17,8 +17,8 @@ rocket-anomaly-detection/
 │   ├── altitude_estimation.png
 │   └── residual.png
 
-
-🚀 Features
+```
+## 🚀 Features
 
 Simulates realistic rocket flight dynamics
 
@@ -34,30 +34,30 @@ Logs anomalies and exports to CSV
 
 Visualizes residuals and detected anomalies
 
-🧪 Dependencies
+## 🧪 Dependencies
 
 Install with pip:
     pip install numpy pandas matplotlib
 
-📝 How to Run
-
+## 📝 How to Run
+```bash
 python src/main.py
-
+```
 Outputs:
-
+```bash
 data/simulated_flight_data.csv
 
 data/anomaly_report.csv
 
 figures/residual.png
-
-🤖 Model Details
+```
+## 🤖 Model Details
 
 Kalman Filter: Used for estimating altitude from accelerometer and barometer.
 
 Anomaly Detection: No machine learning models are used; anomaly detection is purely statistical (residual > 3σ).
 
-📊 Data Output
+## 📊 Data Output
 
 Simulated flight and sensor data are stored in data/simulated_flight_data.csv, including:
 
@@ -75,6 +75,6 @@ Accelerometer Reading (m/s^2)
 
 Anomaly log is stored in data/anomaly_report.csv.
 
-📄 Report
+## 📄 Report
 
 See report.pdf for full project details, methodology, charts, and conclusion.

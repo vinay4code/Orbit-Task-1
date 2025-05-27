@@ -43,11 +43,12 @@ pip install numpy pandas matplotlib
 ```
 ## 📝 How to Run
 ```bash
-python src/main.py
+python src/phase4_anomaly.py
+python src/Anomaly_detection.py
 ```
 Outputs:
 ```bash
-data/simulated_flight_data.csv
+data/sensor_data.csv
 
 data/anomaly_report.csv
 

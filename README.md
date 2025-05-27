@@ -5,7 +5,7 @@ This project simulates a two-stage rocket flight, generates synthetic sensor dat
 
 ## 📁 Project Structure
 ```bash
-rocket-anomaly-detection/
+Orbit Task 1/
 ├── README.md
 ├── report.pdf
 ├── src/

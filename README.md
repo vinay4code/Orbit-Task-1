@@ -9,9 +9,10 @@ rocket-anomaly-detection/
 ├── README.md
 ├── report.pdf
 ├── src/
-│   └── main.py
+│   └── phase4_anomaly.py
+|   |__ Anomaly_detection.py
 ├── data/
-│   ├── simulated_flight_data.csv
+│   ├── sensor_data.csv
 │   └── anomaly_report.csv
 ├── figures/
 │   ├── altitude_estimation.png
